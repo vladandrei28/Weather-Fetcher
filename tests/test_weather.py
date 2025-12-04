@@ -17,7 +17,7 @@ def test_describe_weather_code_known_values():
 
 def test_describe_weather_code_unknown_value():
     # un cod care nu e în mapping
-    assert describe_weather_code(999) == "Condiții meteo necunoscute"
+    assert describe_weather_code(999) == "Conditii meteo necunoscute"
 
 
 def test_append_to_log_creates_file_and_header(tmp_path):
