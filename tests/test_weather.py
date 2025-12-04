@@ -11,8 +11,8 @@ from main import describe_weather_code, append_to_log
 
 def test_describe_weather_code_known_values():
     assert describe_weather_code(0) == "Cer senin"
-    assert describe_weather_code(3) == "Înnorat"
-    assert describe_weather_code(61) == "Ploaie slabă"
+    assert describe_weather_code(3) == "Innorat"
+    assert describe_weather_code(61) == "Ploaie slaba"
 
 
 def test_describe_weather_code_unknown_value():
