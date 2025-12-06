@@ -1,3 +1,4 @@
 logged_at,api_time,city,latitude,longitude,temperature_c,windspeed_kmh,winddirection_deg,weather_code,description_ro
 2025-12-04 11:14:49,2025-12-04T13:00,București,44.4268,26.1025,11.8,10.5,82,3,Innorat
 2025-12-05 07:15:59,2025-12-05T09:15,București,44.4268,26.1025,10.5,13.9,73,3,Innorat
+2025-12-06 07:12:43,2025-12-06T09:00,București,44.4268,26.1025,4.2,19.4,47,61,Ploaie slaba
