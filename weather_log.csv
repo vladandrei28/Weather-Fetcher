@@ -11,3 +11,4 @@ logged_at,api_time,city,latitude,longitude,temperature_c,windspeed_kmh,winddirec
 2025-12-13 07:13:40,2025-12-13T09:00,București,44.4268,26.1025,4.4,3.9,248,45,Ceata
 2025-12-14 07:14:04,2025-12-14T09:00,București,44.4268,26.1025,2.8,8.8,235,3,Innorat
 2025-12-15 07:19:47,2025-12-15T09:15,București,44.4268,26.1025,1.4,7.4,247,3,Innorat
+2025-12-16 07:18:32,2025-12-16T09:15,București,44.4268,26.1025,-1.4,4.0,260,45,Ceata
