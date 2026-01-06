@@ -32,3 +32,4 @@ logged_at,api_time,city,latitude,longitude,temperature_c,windspeed_kmh,winddirec
 2026-01-03 07:14:23,2026-01-03T09:00,București,44.4268,26.1025,1.8,3.6,233,2,Partial înnorat
 2026-01-04 07:16:34,2026-01-04T09:15,București,44.4268,26.1025,1.1,10.4,34,61,Ploaie slaba
 2026-01-05 07:23:34,2026-01-05T09:15,București,44.4268,26.1025,0.6,17.3,54,3,Innorat
+2026-01-06 07:20:47,2026-01-06T09:15,București,44.4268,26.1025,1.9,0.8,243,45,Ceata
