@@ -6,7 +6,6 @@ import csv
 
 
 def get_weather(latitude: float, longitude: float):
-    """Fetch current weather data from Open-Meteo API."""
     url = "https://api.open-meteo.com/v1/forecast"
     params = {
         "latitude": latitude,
@@ -30,7 +29,6 @@ def get_weather(latitude: float, longitude: float):
 
 
 def describe_weather_code(code: int) -> str:
-    """Very simple description for Open-Meteo weather codes."""
     mapping = {
         0: "Cer senin",
         1: "Mai mult senin",
@@ -60,7 +58,6 @@ def append_to_log(
     weather: dict,
     log_path: Path | None = None,
 ):
-    """Append current weather data to a CSV log file."""
     if log_path is None:
         log_path = Path("weather_log.csv")
 
@@ -106,7 +103,6 @@ def append_to_log(
 
 
 def main():
-    # Coordonate default: București
     latitude = float(os.getenv("LATITUDE", "44.4268"))
     longitude = float(os.getenv("LONGITUDE", "26.1025"))
     city_name = os.getenv("CITY_NAME", "Bucuresti")
@@ -131,7 +127,6 @@ def main():
     print(f"Conditii: {description}")
     print("================================")
 
-     # Salvarea pentru jurnal
     append_to_log(city_name, latitude, longitude, weather)
 
 
